@@ -22,14 +22,19 @@ body{
     align-items: center;
     justify-content: flex-end;
     list-style: none;
-    padding: 0 20px;
+    padding: 20px;
   line-height: 50px;
   }
+
+  .nav-item {padding-left: 150px;
+  }
+
+  
   html {
     scroll-behavior: smooth; 
   }
   .section-item a {
-    color: #829985;
+    color: #583cbd;
     text-decoration: none;  
     transition: color 0.5s;
   }
@@ -75,3 +80,22 @@ body{
   .link:hover {
     color: #5d7260;
   }
+  header {
+    position: fixed; /* Фиксированное позиционирование */
+    left: 0; right: 0; /* Вся ширина */
+    top: 0; /* Положение сверху */
+        background: #b2b41d; /* Цвет фона */
+    color: rgb(70, 16, 16); /* Цвет текста */
+   }
+   header h1 {
+    margin: 2; /* Убираем отступы */
+   }
+   main {
+    min-height: 1000px; /* Минимальная высота */
+    margin-top: 120px; /* Отступ сверху */
+    display: block; /* Для IE */
+   }
+   .Eugene {
+    padding-left: 200px;
+   }
+  
